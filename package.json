@@ -1,6 +1,6 @@
 {
   "name": "replace-require-self",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "require($THIS_PACKAGE) -> require('./')",
   "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
   "repository": "kemitchell/replace-require-self.js",
