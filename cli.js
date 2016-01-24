@@ -7,6 +7,6 @@ var name = require(path.join(process.cwd(), 'package.json')).name
 process.stdin
   .pipe(
     replace(
-      new RegExp('require\\(\s*[\'"]' + name + '[\'"]\s*\\)', 'g'),
-      'require(\'./\')'))
+      new RegExp('require\\(\s*[\'"]' + name, 'g'),
+      'require(\'./'))
   .pipe(process.stdout)
