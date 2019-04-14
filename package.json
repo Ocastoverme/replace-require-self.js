@@ -4,7 +4,7 @@
   "description": "replace require($THIS_PACKAGE) with require('./')",
   "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
   "repository": "kemitchell/replace-require-self.js",
-  "bin": "cli.js",
+  "bin": "bin.js",
   "license": "MIT",
   "dependencies": {
     "stream-replace": "^1.0.0"
